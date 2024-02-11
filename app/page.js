@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
+import RacipyCard from "./components/RacipyCard";
 
 const page = () => {
   return (
     <Fragment>
-      <h1>Hellow React js</h1>
+      <RacipyCard />
     </Fragment>
   );
 };
